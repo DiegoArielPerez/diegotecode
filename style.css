@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+
+h1, h2, h3{
+    font-family:chivo;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner{
+    background-image: url(imagenes/hacker-g228d746fe_1920.jpg);
+    padding: 150px 0px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+    .banner h1{
+        color: white;
+        font-size: 42px;
+
+    }
+    .banner p{
+        color: white;
+        font-size: 24px;
+
+    }
+    .container{
+        width: 800px;
+        margin: auto;
+
+    }
+    .card-white{
+        background-color: white;
+        width: 200px;
+        box-shadow: 0 0 16px rgb(0 0 0 /30%);
+        text-align: center;
+        padding: 24px;
+        margin: 8px;
+    }
+.card-white img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+.footer{
+    background-color: gray;
+    text-align: center;
+    padding: 24px 0px;
+
+}
+.footer p{
+    color: white;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+
+}
